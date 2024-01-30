@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ROCK PAPER SCISSOR GAME</h1>
+    <div class="choices">
+        <div class="choice" id="Rock" onclick="choose('rock')">
+            <img  src="rock.png" alt="ROCK">
+        </div>
+        <div class="choice" id="Paper" onclick="choose('paper')">   
+            <img  src="paper.png" alt="PAPER" >
+        </div>
+        <div class="choice" id="Scissor" onclick="choose('scissor')">
+            <img  src="scissors.png" alt="SCISSOR">
+        </div>
+    </div>
+    <div class="scores">
+        <div class="user-score">
+            <p id="uscore">0</p>
+            <p>Me</p>
+        </div>
+        <div class="comp-score">
+            <p id="cscore">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+    
+    <div class="Message">
+    <h1 style="color:red; " id="declare" ></h3>
+
+    <p id="Msg">Click to play</p>
+</div>
+    <script src="first.js"></script>
+</body>
+</html>
