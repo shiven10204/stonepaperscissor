@@ -31,13 +31,13 @@ console.log(' computer chose '+ compvall);
 if(turn==3){
     document.getElementById('Msg').value='game ends';
 if(uscore>cscore){
-    document.getElementById('declare').innerHTML ='User Wins';
+    document.getElementById('declare').innerHTML =' computer chose '+ compvall+'User Wins';
 
 }else if(uscore<cscore){
-    document.getElementById('declare').innerHTML ='Computer Wins';
+    document.getElementById('declare').innerHTML =' computer chose '+ compvall+'Computer Wins';
 
 }else{
-    document.getElementById('declare').innerHTML ='Draw';
+    document.getElementById('declare').innerHTML =' computer chose '+ compvall+'Draw';
 
 }
 
@@ -56,7 +56,7 @@ if((val=='rock'&& compvall=='paper') || (val=='paper'&& compvall=='scissor') ||(
 
 }
 else{
-    console.log(' computer chose: '+ compvall+'user wins');
+    console.log('user wins');
     uscore++;
     document.getElementById('Msg').value='user wins';
     document.getElementById('uscore').innerHTML =uscore;
