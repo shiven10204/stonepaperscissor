@@ -1,4 +1,4 @@
-console.log('chutiya');
+
 
 
 let comp;
@@ -56,7 +56,7 @@ if((val=='rock'&& compvall=='paper') || (val=='paper'&& compvall=='scissor') ||(
 
 }
 else{
-    console.log('user wins');
+    console.log(' computer chose: '+ compvall+'user wins');
     uscore++;
     document.getElementById('Msg').value='user wins';
     document.getElementById('uscore').innerHTML =uscore;
